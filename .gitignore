@@ -1,1 +1,10 @@
-# Created by venv; see https://docs.python.org/3/library/venv.html
+*env/
+*.py[cod]
+__pycache__/
+*.DS_Store
+.idea/
+.vscode/
+*.tmp
+*.db
+*.sqlite
+*.sqlite3
