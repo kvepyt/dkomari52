@@ -15,12 +15,14 @@ git commit -m “комментарий к коммиту”
  - делаем коммит(сохраняем текущее состояние файлов в репозитории)
 
 Каждый раз, когда вам нужно сохранить изменения в локальном репозитории выполните:
+
 git add .
 
 git commit -m “комментарий к коммиту”
 
-При создании репозитория из командной строки делаем так:
-echo "# Docker" >> README.md
+ПРИ СОЗДАНИИ НОВОГО РЕПОЗИТОРИЯ из командной строки делаем так:
+
+echo "# ProjectName" >> README.md
 
 git init
 
@@ -34,7 +36,8 @@ git remote add origin git@github.com:mariako25/dkomari52.git
 
 git push -u origin master
 
-При наличии существующего репозитория - так:
+ПРИ НАЛИЧИИ СУЩЕСТВУЮЩЕГО РЕПОЗИТОРИЯ - ТАК:
+
 git remote add origin git@github.com:mariako25/dkomari52.git
 
 git branch -M master
@@ -42,6 +45,7 @@ git branch -M master
 git push -u origin master
 
     ПОТОМ (при использовании в проекте PYTHON) СОЗДАЕМ ВИРТУАЛЬНОЕ ОКРУЖЕНИЕ:
+
 python3 -m venv .venv
 
 source .venv/bin/activate
